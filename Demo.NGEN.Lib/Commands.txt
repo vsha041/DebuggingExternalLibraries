@@ -1,0 +1,9 @@
+﻿Start VS CMD as Admin
+
+#Install
+gacutil -i Demo.NGEN.Lib.dll
+ngen install Demo.NGEN.Lib.dll
+
+#Uninstall
+ngen uninstall Demo.NGEN.Lib.dll
+gacutil -u Demo.NGEN.Lib
